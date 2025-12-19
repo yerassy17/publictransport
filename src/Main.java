@@ -9,7 +9,7 @@ public class Main {
 
         TransportService service = new TransportService("City Transport", allBuses);
 
-        Commuter c1 = new Commuter("Arman", 20, false);
+        Commuter c1 = new Commuter("Arman", 28, false);
         Commuter c2 = new Commuter("Dina", 18, true);
 
         c1.buyTicket();
